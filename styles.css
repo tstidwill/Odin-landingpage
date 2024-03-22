@@ -2,12 +2,18 @@ body{
     font-family: "Roboto", sans-serif;
     margin: 0;
 }
-header{
+header, .hero{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
     color: #F9FAF8;
+}
+header{
     padding: 8px;
+}
+
+.hero{
+    padding: 100px 0;
 }
 h1{
     margin-left: 200px;
@@ -27,12 +33,6 @@ a{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
-}
-.hero{
-    display: flex;
-    justify-content: space-between;
-    background-color: #1F2937;
-    padding: 100px 0;
 }
 .container{
     margin-left: 200px;
@@ -56,4 +56,24 @@ button{
     border-radius: 8px;
     color: white;
     border: none;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.boxes h3{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+.images, figcaption{
+    display: flex;
+    justify-content: center;
+}
+.images figure img{
+    border: 3px #3882f6 solid;
+    border-radius: 10px;
+    padding: 50px;
 }
