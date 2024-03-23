@@ -2,7 +2,7 @@ body{
     font-family: "Roboto", sans-serif;
     margin: 0;
 }
-header, .hero{
+header, .hero, footer{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
@@ -119,9 +119,12 @@ button{
 .signup p{
     margin-top: 0;
 }
-
 .bordered{
     border: 2px white solid;
     padding: 20px;
     margin: 0;
 }
+footer{
+    justify-content: center;
+    padding: 20px;
+} 
