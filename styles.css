@@ -56,6 +56,7 @@ button{
     border-radius: 8px;
     color: white;
     border: none;
+    margin: 0;
 }
 .boxes{
     display: flex;
@@ -75,5 +76,52 @@ button{
 .images figure img{
     border: 3px #3882f6 solid;
     border-radius: 10px;
-    padding: 50px;
+    padding:50px;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 100px 250px;
+}
+.quote p{
+    margin: 10px;
+}
+#thor{
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 0;
+
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #3882f6;
+    margin: 100px 200px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+.signup h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.signup p{
+    margin-top: 0;
+}
+
+.bordered{
+    border: 2px white solid;
+    padding: 20px;
+    margin: 0;
 }
